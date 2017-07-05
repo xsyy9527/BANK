@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录页面最新</title>
+
+<link href="../css/public.css" rel="stylesheet" type="text/css">
+<link href="../css/denglu.css" rel="stylesheet" type="text/css">
+</head>
+
+	<body onload="changeyzm()">		
+		<div id="top">
+			<div class="w">
+				<div class="top-l">
+					<img src="../images/top_words.jpg" />
+					<div class="xiaosanjiao"></div>
+				</div>
+				<div class="top-r">
+					<span><a href="denglu.html">我的订单</a></span>
+                    <span class="gang">丨</span>
+					<span><a href="denglu.html">登录</a></span>
+                    <span class="gang">丨</span>
+					<span><a href="zhuce.html">注册</a></span>
+                    <span class="gang">丨</span>
+					<span id="startbtn2"><a href="#">非会员订单</a></span>
+                    <!-----------非会员的弹窗---------------->
+                    <div id="feihuiyuan" style="width:450px;height:210px;background:#eeeeee;position:absolute;top:-400px;left:428px;
+		border:1px solid #000;padding:10px;z-index:100;">
+		<p style="text-align:center;text-indent:3em;margin-top:50px;">订单号：<input type="text" style="width:226px;height:22px;border:1px solid #ccc;"/></p>
+		<p style="text-align:center;">收货人手机号：<input type="text" style="width:226px;height:22px;border:1px solid #ccc;margin-top:20px;"/></p>
+		<p style="text-align:center;"><input type="button" value="确定" style="background:#d70509;margin-top:10px;width:50px;height:30px;"/></p>
+		<p  id="startbtn1" style="width:40px;height:40px;position:absolute;top:-22px;right:-15px;background:url(../images/close_popwin.png);"></p>
+	 </div>
+                    <!-----------非会员的弹窗---------------->
+                    <span class="gang">丨</span>
+					<span><a href="#">掌上商城</a></span>
+                    <span class="xiaosanjiao"></span>
+                    <span class="gang">丨</span>
+                    <span class="te"></span>
+					<span class="last"><a href="#">收藏本站</a></span>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+        	<div class="w">
+                <a href="../index.html"><img src="../images/logo_black.png"/></a>
+                <div class="center">
+                    <input type="text" placeholder="雪花秀盛大入住" class="first"/>
+                    <input type="button" value="搜索" class="last"/>
+                    <ul>
+                    	<li>热门搜索：</li>
+                    	<li>三星</li>
+                    	<li>联想</li>
+                    	<li>惠人</li>
+                    	<li>双立人</li>
+                    	<li>兰蔻</li>
+                    	<li>五粮液</li>
+                    	<li>YSL</li>
+                    </ul>
+                </div>
+                <img src="../images/top_service.jpg"/>
+            </div>
+		</div>
+		<div id="banner">
+			<ul class="w">
+				<li class="first"><a href="../index.html">全部分类</a></li>
+				<li><a href="#">聚便宜</a></li>
+				<li><a href="#">十全十美</a></li>
+				<li><a href="list.html">奢侈品</a></li>
+				<li><a href="#">品牌旗舰店</a></li>
+				<li><a href="#">苹果专区</a></li>
+				<li class="first"><a href="#"><span></span>购物车</a></li>
+			</ul>
+		</div>
+        <div id="center">
+        	<div class="w">
+            	<img src="../images/loginMain_bg.jpg"/>
+                <div class="login">
+                	<h1 style="position:relative;">用户登录<span>&nbsp;掌上生活，扫码登录</span>
+                    </h1>
+                    <div class="saoma">
+                    	<img id="btnShow" src="../images/half-erweima.png" style="float:right;cursor:pointer;"/>
+                        
+                    </div>
+                    <div class="myClass" style="position:absolute;width:376px;height:239px;background:#fff;display:none;z-index:50;">
+                    	<span id="btnHide" style="width:64px;height:64px;display:inline-block;float:right;background:url(../images/login_qrcode.png);background-position:-236px -64px;cursor:pointer;"></span>
+                        <img src="../images/code.jpg" style="float:none;margin-top:20px;margin-left:116px;"/>
+                        <p style="text-align:center;">掌上生活扫码 安全登录 </p>
+                        <p style="text-align:center;">请使用5.0.5及以上版本的掌上生活扫码</p>
+                    </div>
+                	<p class="p1">登录账户：<input type="text"/></p>
+                	<p class="p2">登录密码：<input type="text"/></p>
+                	<p class="p4">验证码：
+                        <input type="text" class="te"/>
+                        <span id="showCode"></span>
+                        <a href="#" onclick="changeyzm()">看不清，换一张</a>
+                    </p>
+
+                    <p class="p5">
+                        <input type="submit" value="登录" class="last"/>
+                        <a href="#" style="color:#008dfa;">忘记密码</a>
+                    </p>
+                    <ul>
+                        <li style="border-right:1px solid #f0f0f0;"><a href="#">&nbsp;&nbsp;&nbsp;一网通用户登录&nbsp;&nbsp;&nbsp;</a></li>
+                        <li style="border-left:1px solid #c6c6c6;">&nbsp;&nbsp;&nbsp;还没有商城账号？ 只需一分钟，<a href="zhuce.html" style="color:#C30;">免费注册&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                	</ul>
+
+                </div>
+            </div>
+        </div>
+        <div id="line"></div>
+		<div id="footer" class="w">
+        	<div class="footer-l">
+                <img src="../images/magzing.jpg"/>
+                <p>礼遇电子杂志<span>开始浏览</span></p>
+            </div>
+            <ul>
+            	<li class="te1"><a href="#"><span></span>新手上路</a></li>
+            	<li><a href="#">常见问题</a></li>
+            	<li><a href="#">购物流程</a></li>
+            	<li><a href="#">活动介绍</a></li>
+            	<li><a href="#">优惠券指南</a></li>
+            </ul>
+            <ul>
+            	<li class="te2"><a href="#"><span></span>支付方式</a></li>
+            	<li><a href="#">分期付款</a></li>
+            	<li><a href="#">一次性付款</a></li>
+            	<li><a href="#">支付常见问题</a></li>
+            </ul>
+            <ul>
+            	<li class="te3"><a href="#"><span></span>售后服务</a></li>
+            	<li><a href="#">订单查询</a></li>
+            	<li><a href="#">服务条款</a></li>
+            	<li><a href="#">退换货政策</a></li>
+            </ul>
+            <ul>
+            	<li class="te4"><a href="#"><span></span>关于我们</a></li>
+            	<li><a href="#">商城简介</a></li>
+            	<li><a href="#">联系我们</a></li>
+            	<li><a href="#">合作申请</a></li>
+            	<li><a href="#">诚聘英才</a></li>
+            </ul>
+        </div>
+        <div id="bottom" class="w">
+        	<p>&copy;2012 招商银行 版权所有 本站内容未经许可不得擅自转载使用 ICP许可证 ：粤B2-20040497<span>安全说明 & 网站声明 & 隐私保密条款</span></p>
+        </div>
+	</body>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<!---------------显示/隐藏事件---------------------------->
+
+
+
+	<script src="../js/myevent.js"></script>
+	<script src="../js/mytools.js"></script>
+	<script>
+	let timer=null;
+window.onload=function(){
+		changeyzm();
+		$("startbtn1").onclick=function(){
+			move4($("feihuiyuan"),-400,"top");
+		};	
+		$("startbtn2").onclick=function(){
+			move4($("feihuiyuan"),282,"top");
+			
+			
+		};	
+		
+			
+<!---------------显示/隐藏事件---------------------------->
+	jQuery("#btnShow")[0].onclick = function(){
+		jQuery(".myClass").show();
+	}
+	jQuery("#btnHide")[0].onclick = function(){
+		jQuery(".myClass").hide();
+	}
+	
+<!---------------显示/隐藏事件---------------------------->
+	//缓冲运动
+	function move4(obj,target,attr){
+		clearInterval(timer);
+		timer=setInterval(function(){
+			
+			let attrValue=parseInt(getStyle(obj,attr));
+			
+			let speed=(target-attrValue>0)?Math.ceil((target-attrValue)/7):Math.floor((target-attrValue)/7);
+			if(attrValue==target){
+				clearInterval(timer);
+			}else{
+				obj.style[attr]=attrValue+speed+"px";
+			}
+		},30);
+		
+		
+		
+	}
+	
+};
+<!---------更改验证码----------------->	
+function changeyzm(){
+		var i=0;
+		var str="";
+		while(i<5){
+			var num1=parseInt(Math.random()*123);
+			if(num1>=65 && num1<=90){
+				str+=String.fromCharCode(num1);
+				i++;
+			}
+		}
+		document.getElementById("showCode").innerHTML=str;	
+}
+<!---------更改验证码----------------->	
+    
+    </script>  
+    
+</html>

@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册页面</title>
+
+<link href="../css/public.css" rel="stylesheet" type="text/css">
+<link href="../css/zhuce.css" rel="stylesheet" type="text/css">
+</head>
+
+	<body onload="changeyzm()">		
+		<div id="top">
+			<div class="w">
+				<div class="top-l">
+					<a href="index.html"><img src="../images/top_words.jpg" /></a>
+					<div class="xiaosanjiao"></div>
+				</div>
+				<div class="top-r">
+					<span><a href="denglu.html">我的订单</a></span>
+                    <span class="gang">丨</span>
+					<span><a href="denglu.html">登录</a></span>
+                    <span class="gang">丨</span>
+					<span><a href="zhuce.html">注册</a></span>
+                    <span class="gang">丨</span>
+					<span><a href="#">非会员订单</a></span>
+                    <span class="gang">丨</span>
+					<span class="erweima">
+                    	<a href="#">掌上商城<img src="../images/qrcode.png"/></a>
+                        
+                    </span>
+                    <span class="xiaosanjiao"></span>
+                    <span class="gang">丨</span>
+                    <span class="te"></span>
+					<span class="last"><a href="#">收藏本站</a></span>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+        	<div class="w">
+                <a href="../index.html"><img src="../images/logo_black.png"/></a>
+                <div class="center">
+                    <input type="text" placeholder="雪花秀盛大入住" class="first"/>
+                    <input type="button" value="搜索" class="last"/>
+                    <ul>
+                    	<li>热门搜索：</li>
+                    	<li>三星</li>
+                    	<li>联想</li>
+                    	<li>惠人</li>
+                    	<li>双立人</li>
+                    	<li>兰蔻</li>
+                    	<li>五粮液</li>
+                    	<li>YSL</li>
+                    </ul>
+                </div>
+                <img src="../images/top_service.jpg"/>
+            </div>
+		</div>
+		<div id="banner">
+			<ul class="w">
+				<li class="first"><a href="#">全部分类</a></li>
+				<li><a href="#">聚便宜</a></li>
+				<li><a href="#">十全十美</a></li>
+				<li><a href="html/list.html">促销品</a></li>
+				<li><a href="#">品牌旗舰店</a></li>
+				<li><a href="#">苹果专区</a></li>
+				<li class="first"><a href="shop.html"><span></span>购物车</a></li>
+			</ul>
+		</div>
+		<div id="dazhaohu">
+            <div class="w top">
+                <b>欢迎您注册招商银行网上商城</b>
+                <img src="../images/logo_easy.jpg"/>
+                <span>属同一账号，您可以直接使用出行易账号<a href="#">登录</a></span>
+            </div>
+            <div class="w table">
+                <p class="p1">
+                    <span class="s1">设置登录账号：</span>
+                    <select>
+                        <option>手机</option>
+                        <option>邮箱</option>
+                    </select>
+                    <input id="username" type="text"/>
+                    <input type="button" value="获取激活码"/>
+                </p>
+                <p class="p2">
+                    <span class="s2">输入短信激活码：</span>
+                    <input  type="text"/>
+                    请输入收到的6位激活码
+                </p>
+                <p class="p3">
+                    <span class="s3" id="s44">创建密码：</span><b class="Passwordtishi"></b>
+                    <input class="put9" type="password"/>
+                    <div id="div1" style="border:1px #999 solid;width:46px;height:10px;float:left;margin-left:388px;margin-top:6px;">
+                    </div>
+                    <div id="div2" style="border:1px #999 solid;width:46px;height:10px;float:left;margin-top:6px;border-left:0;">
+                    </div>
+                    <div id="div3" style="border:1px #999 solid;width:46px;height:10px;float:left;margin-top:6px;border-left:0;">
+                    </div>
+
+                <p></p>
+                <p class="p4">
+                    <span class="s4">重复密码：</span>
+                    <input class="put3" type="password"/>
+                </p>
+                <p class="p5">
+                    <span class="s5">验证码：</span>
+                    <input  type="text"/>
+                    <span id="showCode" style="display:inline-block;width:76px;height:30px;background:url(../images/yzm.png);color:#008007;font-style:italic;font-size:18px;line-height:25px;"></span>
+                    
+                    <a href="#" onclick="changeyzm()">看不清，换一张</a>
+<script type="text/javascript">
+	
+	function changeyzm(){
+		var i=0;
+		var str="";
+		while(i<5){
+			var num1=parseInt(Math.random()*123);
+			if(num1>=65 && num1<=90){
+				str+=String.fromCharCode(num1);
+				i++;
+			}
+		}
+		document.getElementById("showCode").innerHTML=str;	
+	}
+</script>
+                    
+                </p>
+                <p class="p6">
+                    <input type="submit" value="同意须知，立即注册"/>
+                </p>
+                <a href="#" class="te">《招商银行会员须知》</a>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="line"></div>
+		<div id="footer" class="w">
+        	<div class="footer-l">
+                <img src="../images/magzing.jpg"/>
+                <p>礼遇电子杂志<span>开始浏览</span></p>
+            </div>
+            <ul>
+            	<li class="te1"><a href="#"><span></span>新手上路</a></li>
+            	<li><a href="#">常见问题</a></li>
+            	<li><a href="#">购物流程</a></li>
+            	<li><a href="#">活动介绍</a></li>
+            	<li><a href="#">优惠券指南</a></li>
+            </ul>
+            <ul>
+            	<li class="te2"><a href="#"><span></span>支付方式</a></li>
+            	<li><a href="#">分期付款</a></li>
+            	<li><a href="#">一次性付款</a></li>
+            	<li><a href="#">支付常见问题</a></li>
+            </ul>
+            <ul>
+            	<li class="te3"><a href="#"><span></span>售后服务</a></li>
+            	<li><a href="#">订单查询</a></li>
+            	<li><a href="#">服务条款</a></li>
+            	<li><a href="#">退换货政策</a></li>
+            </ul>
+            <ul>
+            	<li class="te4"><a href="#"><span></span>关于我们</a></li>
+            	<li><a href="#">商城简介</a></li>
+            	<li><a href="#">联系我们</a></li>
+            	<li><a href="#">合作申请</a></li>
+            	<li><a href="#">诚聘英才</a></li>
+            </ul>
+        </div>
+        <div id="bottom" class="w">
+        	<p>&copy;2012 招商银行 版权所有 本站内容未经许可不得擅自转载使用 ICP许可证 ：粤B2-20040497<span>安全说明 & 网站声明 & 隐私保密条款</span></p>
+        </div>
+ 
+		
+    </body>
+</html>
+       <script src="../js/jquery-1.8.3.js"></script>
+		<script src="../js/register.js"></script>
+        
+        <script>
+        $('input').keyup(function(){
+             var $parent = $(this).parent();
+             $parent.find(".formtips").remove();
+             //验证用户名
+             
+             if( $(this).is('#username') ){
+             		var reg = /^1[35784][0-9]{9}$/;								
+                    if( reg.test(this.value)==false  ){                   	
+                        var errorMsg = '请输入电话号码';
+                        $parent.append('<span style="color:red;" class="formtips onError">*'+errorMsg+'</span>');
+                    }else{
+                        var okMsg = '输入正确';
+                        $parent.append('<span style="color:green;" class="formtips onSuccess">*'+okMsg+'</span>');
+                    }
+             }
+             //验证密码
+           	if($(this).is('.put9')){
+           		//console.log(this.value.length)
+           		
+           		if(this.value=="" || this.value.length<6){
+           			var errorMsg = '密码最少6位';
+                        $parent.append('<span style="color:red;" class="formtips onError">*'+errorMsg+'</span>');
+                     	$("#div1").css("background","red");
+           				$("#div2").css("background","white");
+           				$("#div3").css("background","white");
+                        
+           		}else{
+           			var errorMsg = '√';
+                        $parent.append('<span style="color:green;" class="formtips onError">*'+errorMsg+'</span>');
+           		}
+           		if(this.value.length>6 && this.value.length<10){
+           			$("#div1").css("background","red");
+           			$("#div2").css("background","yellow");
+           			$("#div3").css("background","white");
+           		}
+           		if(this.value.length>=10){
+           			$("#div1").css("background","red");
+           			$("#div2").css("background","yellow");
+           			$("#div3").css("background","green");
+           		}
+           		if(this.value=="" ||this.value.length==0){
+           			$("#div2").css("background","white");
+           			$("#div1").css("background","white");
+           			$("#div3").css("background","white");
+                        
+           		}
+           }
+           if( $(this).is('.put3') ){
+           		console.log($(".put9")[0].value)
+           		console.log(this.value)
+             	if(this.value==($(".put9")[0].value) && this.value!=""){
+             		var errorMsg = '√';
+                        $parent.append('<span style="color:green;" class="formtips onError">*'+errorMsg+'</span>');
+             	}else{
+             		var errorMsg = '两次密码不一致';
+                        $parent.append('<span style="color:red;" class="formtips onError">*'+errorMsg+'</span>');
+             	}
+             }	
+        })
+</script>
+
+        
