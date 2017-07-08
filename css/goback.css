@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+.w{width:982px;margin:0 auto;height:30px;}
+#top{height:30px;}
+#top .top-l{float:left;}
+#top .top-r{float:right;}
+#top .top-r span{font-size:12px;
+				line-height:30px;}
+#top .top-l img{float:left;
+				display:inline-block;
+				margin:11px 0 0 9px;}
+#top .top-l .xiaosanjiao{float:left;border-top:8px solid #888888;
+				 border-left:8px solid #fff;
+				 border-right:8px solid #fff;
+				 width:0px;
+				 height:0px;
+				 margin-top:13px;
+				 margin-left:10px;}
+#top .top-r .erweima{position:relative;}
+#top .top-r .erweima img{position:absolute;top:16px;left:-26px;display:none;z-index:100;}
+#top .top-r .erweima:hover img{display:block;}				 
+#top .top-r .xiaosanjiao{border-top:8px solid #888888;
+				 border-left:8px solid #fff;
+				 border-right:8px solid #fff;
+				 width:0px;
+				 height:0px;
+				 margin-top:13px;
+				 margin-left:10px;
+				display:inline-block;}	
+#top .top-r .gang{marin:0 13px;}
+#top .top-r .last{margin-left:20px;}
+#top .top-r .te{background:url(../images/sprite1346.png) no-repeat;
+				height:20px;
+				width:20px;
+				display:inline-block;
+				position:absolute;
+				top:10px;
+				}
+/*-----------头部------------------*/				 			 
+#header{height:106px;
+				background:#f8f8f8;
+				clear:both;}
+#header img:first-child{float:left;
+				margin-left:11px;
+				margin-top:36px;}
+#header .center{width:519px;
+				float:left;}
+#header .center ul{margin-top:72px;
+				padding-left:69px;}				
+#header .center ul li{float:left;
+				font-size:12px;
+				color:#b099b0;
+				margin-right:8px;}			
+#header .first{float:left;
+				margin-top:23px;
+				border:2px solid #e10023;
+				margin-left:60px;
+				width:310px;
+				height:36px;
+				color:#b7b7b7;
+				font-size:12px;
+				padding-left:8px;}
+#header .last{float:left;
+				margin-top:23px;
+				background:#e10023;
+				width:80px;
+				height:40px;
+				border:0;
+				cursor:pointer;
+				margin-right:57px;}
+/*-----------导航栏------------------*/				 			 
+				
+#banner{background:#ce0000;
+				height:39px;}
+#banner .w .first{position:relative;}				
+#banner .w .first span{background:url(../images/sprite1346.png) no-repeat;
+				height:20px;
+				width:20px;
+				display:inline-block;
+				position:absolute;
+				top:10px;
+				left:56px;
+				background-position:0px -1834px;}
+#banner ul li{float:left;
+				line-height:39px;
+				width:115px;
+				border-left:1px solid #f0b3b3;
+				text-align:center;}
+#banner ul li:hover{background:#9b0000;}				
+#banner .first:hover{background:#ce0000;}				
+				
+				
+				
+#banner ul .first{width:195px;
+				border-right:1px solid #f0b3b3;}
+			
+#banner ul li a{color:#fff;
+				}
+/*-------主体部分----------*/
+#problem h5{height:40px;line-height:40px;font-size:12px;}
+#problem .problem-l{width:210px;height:560px;float:left;}
+#problem .problem-l .u1{box-sizing:border-box;border:1px solid #d8d8d8;}
+#problem .problem-l .u1 li{height:30px;border:1px solid #d8d8d8;line-height:30px;font-size:12px;color:#ce0000;padding-left:13px;cursor:pointer;overflow:hidden;}
+#problem .problem-l .u1 li:hover{height:200px;}
+#problem .problem-l .u1 li:hover .u2{height:170px;}
+#problem .problem-l .u1 .u2 li{border:0;}
+
+
+
+
+
+
+#problem .problem-r{width:758px;border:1px solid #d8d8d8;float:right;height:1770px;margin-bottom:40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dazhaohu{background:#eeeeee;height:545px;}
+#dazhaohu .top{height:33px;padding-top:20px;}
+#dazhaohu .top b{font-size:24px;color:#de0001;line-height:33px;display:inline-block;border-right:1px solid #999;padding-right:19px;}
+#dazhaohu .top img{display:inline-block;}
+#dazhaohu .top a{color:#027dcb;}
+#dazhaohu .table{height:432px;background:#fff;border:1px solid #999;margin-top:20px;}
+#dazhaohu .table input{height:26px;}
+#dazhaohu .table .p1{margin-left:300px;margin-top:50px;}
+#dazhaohu .table .p2,.p3,.p4,.p5{margin-top:24px;}
+#dazhaohu .table .p2{margin-left:287px;}
+#dazhaohu .table .p3{margin-left:323px;}
+#dazhaohu .table .p4{margin-left:323px;}
+#dazhaohu .table .p5{margin-left:333px;}
+#dazhaohu .table .p6{margin-left:390px;margin-top:24px;}
+#dazhaohu .table .p6 input{background:#e00e12;border-radius:5px;padding:7px 15px;margin-bottom:20px;line-height:26px;height:40px;border:0;cursor:pointer;}
+#dazhaohu .table .te{margin-left:403px;}
+
+#line{clear:both;height:4px;width:100%;background:#f42004;margin-top:40px;margin-bottom:19px;}
+/*------------------------------页脚--------------------*/
+#footer{clear:both;height:325px;background:url(../images/footer.png) no-repeat;background-size:980px 300px;}
+#footer img{padding-top:42px;height:100px;width:242px;}
+#footer .footer-l{float:left;}
+#footer .footer-l p{font-size:12px;color:#000;width:244px;line-height:32px;}
+#footer .footer-l p span{float:right;width:66px;height:20px;display:inline-block;border:1px solid #ebebeb;line-height:20px;text-align:center;margin-top:5px;}
+#footer  ul{float:left;margin-left:113px;font-size:12px;}
+#footer  ul li{margin-bottom:14px;}
+#footer  ul .te1{position:relative;color:#666;font-size:16px;margin-bottom:17px;}
+#footer  ul .te2{position:relative;color:#666;font-size:16px;margin-bottom:17px;}
+#footer  ul .te3{position:relative;color:#666;font-size:16px;margin-bottom:17px;}
+#footer  ul .te4{position:relative;color:#666;font-size:16px;margin-bottom:17px;}
+#footer  .te1 span{position:absolute;width:35px;height:35px;display:inline-block;background:url(../images/sprite1346.png) no-repeat;background-position:0px -333px;left:-32px;top:-6px;color:#999;}
+#footer  .te2 span{position:absolute;width:35px;height:35px;display:inline-block;background:url(../images/sprite1346.png) no-repeat;background-position:0px -377px;left:-32px;top:-6px;color:#999;}
+#footer  .te3 span{position:absolute;width:35px;height:35px;display:inline-block;background:url(../images/sprite1346.png) no-repeat;background-position:0px -420px;left:-32px;top:-6px;color:#999;}
+#footer  .te4 span{position:absolute;width:35px;height:35px;display:inline-block;background:url(../images/sprite1346.png) no-repeat;background-position:0px -463px;left:-32px;top:-6px;color:#999;}
+#bottom{height:42px;line-height:18px;}
+#bottom span{float:right;}
